@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Version>1.0.0</Version>
+    <Authors>Hugh Bellamy</Authors>
+    <PackageTags>Hinge</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>
+      This client library enables you to interact and analyse data exported from the popular dating Hinge 😉.
+    </Description>
+      <RepositoryUrl>https://github.com/hughbe/HingeInformation.git</RepositoryUrl> 
+    <RepositoryType>git</RepositoryType> 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
